@@ -66,7 +66,8 @@ getall = async(req,res)=>{
       status:200,
       success:true,
       message:"Data loaded successfully",
-      data:categoryData
+      data:categoryData,
+      total:totalCount
     })
   })
   .catch((err)=>{
