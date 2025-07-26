@@ -11,7 +11,6 @@ app.use('/api',routes)
 
 app.get('/',(req,res)=>{
   res.send('Backend is Running')
-  
 })
 
 app.listen(port,()=>{
